@@ -18,6 +18,6 @@ docker run --name umami -p 3000:3000 -e DATABASE_URL=mysql://root:root@192.168.7
 
 * Import your source code from GitHub
 
-* define ENV DATABASE_URL
+* define ENV DATABASE_URL="mysql://${MYSQL_USERNAME}:${MYSQL_PASSWORD}@${MYSQL_HOST}:${MYSQL_PORT}/umami"
 
 *  ☕️
